@@ -20,24 +20,29 @@ module.exports = () => {
         template: './index.html',
         title: 'J.A.T.E.',
       }),
+      new MiniCssExtractPlugin(),
       new InjectManifest({
-        swSrc: './src/src-sw.js',
+        swSrc: './src-sw.js',
         swDest: 'service-worker.js',
       }),
       new WebpackPwaManifest({
+        filename: 'manifest.json',
+        inject: true,
+        fingerprints: false,
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
         description: 'Take notes with JasvaScript syntax highlighting!',
         start_url: './',
+        publicPath: './',
         theme_color: '#225ca3',
         background_color: '#225ca3',
         orientation: 'portrait',
         display: 'standalone',
         icons: [
           {
-            src: path.resolve('./src/assets/images/logo.png'),
-            sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join('assets', 'icons'),
+            src: path.resolve(__dirname, './src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512], // specify the sizes you want
+            destination: path.join('assets', 'icons'), // specify the output directory
           },
         ],
       }),
