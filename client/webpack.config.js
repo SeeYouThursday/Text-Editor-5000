@@ -34,6 +34,7 @@ module.exports = () => {
         description: 'Take notes with JasvaScript syntax highlighting!',
         start_url: './',
         publicPath: './',
+        purpose: 'maskable',
         theme_color: '#225ca3',
         background_color: '#225ca3',
         orientation: 'portrait',
