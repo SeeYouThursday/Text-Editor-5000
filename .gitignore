@@ -33,9 +33,9 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+/node_modules/
 jspm_packages/
-
+/client/node_modules
 # TypeScript v1 declaration files
 typings/
 
@@ -71,4 +71,3 @@ yarn.lock
 
 /node_modules
 /02-Challenge
-node_modules
