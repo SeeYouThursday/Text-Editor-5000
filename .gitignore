@@ -71,3 +71,7 @@ yarn.lock
 
 /node_modules
 02-Challenge
+/client/node_modules
+/server/node_modules
+/server/package-lock.json
+/package-lock.json
