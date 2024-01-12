@@ -1,6 +1,6 @@
-# Text-Editor-5000
+# J.A.T.E. (Just Another Text Editor) AKA Text Editor 5000
 
-[![SeeYouThursday](https://img.shields.io/badge/SeeYouThursday-Text--Editor--5000-2f3790?&logo=github)](https://www.github.com/SeeYouThursday/Text-Editor-5000)
+[![SeeYouThursday](https://img.shields.io/badge/SeeYouThursday-J.A.T.E.-2f3790?&logo=github)](https://www.github.com/SeeYouThursday/Text-Editor-5000)
 ![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/SeeYouThursday/Text-Editor-5000?color=yellow&logo=javascript)
 ![GitHub repo size](https://img.shields.io/github/repo-size/SeeYouThursday/Text-Editor-5000?color=green&logo=github)
@@ -12,7 +12,9 @@
 
 ## Description
 
-Text Editor 5000 is a PWA that allows users to take notes with Javascript syntax highlighting. The app is deployed on Heroku and can be accessed [here](https://text-editor-5000-f2edb74933f9.herokuapp.com/).
+JATE is a PWA that allows users to take notes with Javascript syntax highlighting. JATE utilizes Code Mirror and Express to provide a simple text editor to create a PWA that can be downloaded and used offline.
+
+The app is deployed on Heroku and can be accessed [here](https://text-editor-5000-f2edb74933f9.herokuapp.com/).
 
 ## Table of Contents
 
@@ -23,15 +25,21 @@ Text Editor 5000 is a PWA that allows users to take notes with Javascript syntax
 
 ## Installation
 
-To install the necessary dependencies, run the following command:
-`npm install` or `npm i`
+To install locally, clone the repo and install the necessary dependencies, by running the following command:
+`npm install` or `npm i`.
+
+To install the app as a PWA, click the download button in the address bar of your browser or the Install button at the top of the page.
+
+![Screenshot of install btn](./readme-screenshots/installbtn-ss.png)
 
 ## Usage
 
 To run the application locally, clone the repo, then run the following command:
 `npm run start`
 
-![Screenshot](./JATEscreenshot.png)
+To use the application as a PWA, click the download button in the address bar of your browser or the Install button at the top of the page. Then, begin typing in the text editor and your notes will be saved for future use. The application can be used offline, and will sync with the server when the application is online again.
+
+![Screenshot](./readme-screenshots/JATEscreenshot.png)
 
 Otherwise, the application is deployed on Heroku and can be accessed [here](https://text-editor-5000-f2edb74933f9.herokuapp.com/).
 
