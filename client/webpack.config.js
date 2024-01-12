@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = () => {
   return {
-    mode: 'development',
+    mode: 'production',
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
@@ -19,6 +19,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'J.A.T.E.',
+        favicon: './favicon.ico',
       }),
       new MiniCssExtractPlugin(),
       new InjectManifest({
@@ -46,9 +47,15 @@ module.exports = () => {
             destination: path.join('assets', 'icons'), // specify the output directory
           },
         ],
+        prefer_related_applications: true,
+        related_applications: [
+          {
+            platform: 'webapp',
+            url: 'https://text-editor-5000-f2edb74933f9.herokuapp.com/',
+          },
+        ],
       }),
     ],
-
     module: {
       rules: [
         // Add CSS loaders and babel to webpack.
@@ -56,7 +63,7 @@ module.exports = () => {
           test: /\.css$/i,
           use: [MiniCssExtractPlugin.loader, 'css-loader'],
         },
-        { test: /\.(png|svg|jpg|jpeg|gif)$/i, type: 'asset/resource' },
+        { test: /\.(png|svg|jpg|jpeg|gif|ico)$/i, type: 'asset/resource' },
         {
           test: /\.m?js$/,
           exclude: /(node_modules|bower_components)/,

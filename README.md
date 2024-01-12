@@ -1,16 +1,18 @@
 # Text-Editor-5000
 
-![Depfu](https://img.shields.io/depfu/dependencies/github/text-editor-5000?logo=babel%2C%20webpack)
-
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FSeeYouThursday%2FText-Editor-5000%2Fblob%2Fmain%2Fpackage.json&query=%24.dependencies)
-
+[![SeeYouThursday](https://img.shields.io/badge/SeeYouThursday-Text--Editor--5000-2f3790?&logo=github)](https://www.github.com/SeeYouThursday/Text-Editor-5000)
+![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/SeeYouThursday/Text-Editor-5000?color=yellow&logo=javascript)
+![GitHub repo size](https://img.shields.io/github/repo-size/SeeYouThursday/Text-Editor-5000?color=green&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/SeeYouThursday/Text-Editor-5000?color=red&logo=github)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/SeeYouThursday/Text-Editor-5000?color=blue&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SeeYouThursday/Text-Editor-5000?logo=github)
 
-![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=1)
+![Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Tech+Stack&lineCount=1&line1=webpack%2CWebpack%2Cf92c11%3BExpress%2CExpress%2Cfefdfd%3BCode+Mirror%2CCode+Mirror%2C2f3790%3BJavascript%2C%2Cebf153%3B)
 
 ## Description
 
-Text Editor 5000 is a PWA that allows users to take notes with Javascript syntax highlighting. The app is deployed on Heroku and can be accessed [here](https://text-editor-5000.herokuapp.com/).
+Text Editor 5000 is a PWA that allows users to take notes with Javascript syntax highlighting. The app is deployed on Heroku and can be accessed [here](https://text-editor-5000-f2edb74933f9.herokuapp.com/).
 
 ## Table of Contents
 
@@ -26,10 +28,12 @@ To install the necessary dependencies, run the following command:
 
 ## Usage
 
-To run the application locally, run the following command:
+To run the application locally, clone the repo, then run the following command:
 `npm run start`
 
-Otherwise, the application is deployed on Heroku and can be accessed [here](https://text-editor-5000.herokuapp.com/).
+![Screenshot](./JATEscreenshot.png)
+
+Otherwise, the application is deployed on Heroku and can be accessed [here](https://text-editor-5000-f2edb74933f9.herokuapp.com/).
 
 ## License
 
